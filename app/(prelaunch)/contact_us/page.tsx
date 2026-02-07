@@ -58,14 +58,13 @@ const ContactUs = () => {
               className="block uppercase tracking-wide text-xs font-bold mb-2"
               htmlFor="name"
             >
-              firstName
+              Name
             </label>
             <input
               required
               className="appearance-none block w-full bg-gray-200 border text-gray-700 border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="name"
               type="text"
-              placeholder="Lokmane Elhakim"
               {...register("firstName")}
             />
             <p className="text-xs italic"></p>
@@ -84,7 +83,7 @@ const ContactUs = () => {
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
-              placeholder="lokmaneelhakim@gmail.com"
+              placeholder="john@syxth.xyz"
               {...register("email")}
             />
           </div>
@@ -100,7 +99,6 @@ const ContactUs = () => {
             <textarea
               className="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
               id="message"
-              placeholder="Hi, I am reaching out as a potential customer of your platform. I recently learned about your SaaS offerings and am incredibly excited about the possibilities they hold."
               {...register("message")}
             ></textarea>
           </div>
